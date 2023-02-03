@@ -41,10 +41,22 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')){
                 clearDisplay();
                 updateDisplay();
-        }
+            } else if(buttons[i].classList.contains('sqrt')){
+                squareRoot(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('log')){
+                log0fX(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('pi')) {
+                Pi(displayValue);
+                updateDisplay();
+           } else if(buttons[i].classList.contains('ln')) 
+                ln0fX(displayValue);
+                updateDisplay();
+    }
     )}
 }
 
@@ -181,4 +193,16 @@ function operate(x, y, op) {
 
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
+}
+function squareRoot(num){
+    return displayValue = Math.sqrt(num).toFixed(9)
+}
+function log0fX(num){
+    return displayValue = Math.log(num).toFixed(9)
+}
+function Pi(num){
+    return displayValue = Math.PI(num).toFixed(9)
+}
+function ln0fX(num){
+    return displayValue = Math.LN10(num).toFixed(9)
 }
