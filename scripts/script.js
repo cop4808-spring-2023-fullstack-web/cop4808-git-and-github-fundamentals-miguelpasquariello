@@ -201,8 +201,8 @@ function log0fX(num){
     return displayValue = Math.log(num).toFixed(9)
 }
 function Pi(num){
-    return displayValue = Math.PI(num).toFixed(9)
+    return displayValue = Math.PI .toFixed(9)
 }
 function ln0fX(num){
-    return displayValue = Math.LN10(num).toFixed(9)
+    return displayValue = Math.log2(num).toFixed(9)
 }
