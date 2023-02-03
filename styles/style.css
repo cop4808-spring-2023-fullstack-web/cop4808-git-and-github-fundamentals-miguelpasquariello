@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
     gap: 2px;
 }
 
@@ -106,5 +106,34 @@ button {
 }
 
 .percent:active {
+    background-color: rgb(123, 189, 255);
+}
+
+.sqrt {
+    background-color: dodgerblue;
+}
+
+.sqrt:active {
+    background-color: rgb(123, 189, 255);
+}
+.log {
+    background-color: dodgerblue;
+}
+
+.log:active {
+    background-color: rgb(123, 189, 255);
+}
+.pi {
+    background-color: dodgerblue;
+}
+
+.pi:active {
+    background-color: rgb(123, 189, 255);
+}
+.ln {
+    background-color: dodgerblue;
+}
+
+.ln:active {
     background-color: rgb(123, 189, 255);
 }
