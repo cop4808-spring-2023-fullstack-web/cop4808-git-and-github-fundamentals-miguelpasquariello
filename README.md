@@ -1,4 +1,8 @@
 Miguelangel Pasquariello
+
+HW 2 Calculator:
+![calculator](https://user-images.githubusercontent.com/111643667/216486735-12640383-2617-407d-bc60-aedc2d6fb7a1.gif)
+
 # :wave: The Basics of GitHub 
 ## 🤓 Course overview and learning outcomes 
 
